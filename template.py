@@ -4,8 +4,9 @@
 Example of extensions template for inkscape
 
 '''
-import sys
-sys.path.insert(0, "./inkscape_pymodules")
+# Uncomment the code below. This so as you can use Visual Studio intellisense 
+# import sys
+# sys.path.insert(0, "./inkscape_pymodules")
 import inkex       # Required
 import simplestyle # will be needed here for styles support
 import os          # here for alternative debug method only - so not usually required
